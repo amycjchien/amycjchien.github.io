@@ -109,7 +109,7 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FFAD01; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #28023D; color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 
@@ -261,3 +261,20 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
 
+
+/* ---------------------------------
+11. EXPERIENCE SECTION
+--------------------------------- */
+
+.project-section{ background: #28023D; color: #fff; }
+
+.project .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.project .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+
+.project-section .portfolioFilter{ margin-top: 60px; color: #666; }
+
+.project-section .portfolioFilter a{ margin: 10px 10px 0 0; }
+
+.project-section .portfolioFilter a.current{  color: #FFA804; }
