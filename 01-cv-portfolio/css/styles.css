@@ -278,3 +278,11 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .project-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
 .project-section .portfolioFilter a.current{  color: #FFA804; }
+
+
+.project-section .p-item a{ display: inline; }
+/*
+.project-section .p-item .img:first-child{ margin-bottom: 10px; }
+
+.project-section .p-item .img:last-child{margin-bottom: 10px; }
+*/
