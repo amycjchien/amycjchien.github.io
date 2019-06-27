@@ -4,12 +4,17 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141199252-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-141199252-1');
+		gtag('config', 'UA-141199252-1');
+		document.oncontextmenu = function(){
+			window.event.returnValue=false; //Cancel Right Click 
+		}
 	</script>
+
+
 
 	<title>Chun-Jung (Amy) Chien</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,6 +37,10 @@
 	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
 	
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
+	<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	
 	<style type="text/css">
 		.roman {
 		 list-style-type: lower-roman;
@@ -265,7 +274,7 @@
 								<h6><i class="icon ion-bookmark">&nbsp;</i>Machine Learning | Computer Vision | Information Retrieval</h6>
 								<ul class="list margin-tb-30">
 									<li>Dataset: <a href="https://grouplens.org/datasets/movielens/1m/" target="_blank"><u>Movielens 1M Datasets</u></a></li>
-									<li>Scratched movie poster automatically through Python from <a href="https://www.imdb.com/" target="_blank"><u>IMDB website</u></a> and extracted poster features from model pretrained on <a href="http://www.image-net.org/" target="_blank" ><u>ImageNet</u></a>. </li>
+									<li>Scratched movie poster automatically through Python from <a href="https://www.imdb.com/" target="_blank"><u>IMDB website</u></a> and extracted poster features from the model pretrained on <a href="http://www.image-net.org/" target="_blank" ><u>ImageNet</u></a>. </li>
 									<li>Trained Generalized Matrix Factorization(GMF) and Neural Matrix Factorization(NeuMF) model along with visual features.</li>
 									<li>Enhanced accuracy of movie recommender system with the augmented movie poster features.</li>
 								</ul>
@@ -305,6 +314,11 @@
 								<h5 class="font-yellow"><b>Shao-En Chen, Jeff Chang, Jia-Hung Wu, Yi-Min Chou, Chu-Ya Yang and Chun-Jung Chien</b></h5>
 								<h6 class="margin-t-10">Software Engineering Fall 2018 @ Texas A&M University</h6>
 								<h6><i class="icon ion-bookmark">&nbsp;</i>Web Design</h6>
+								<ul class="list margin-tb-30">
+									<li>Developed RESTful API service to manipulate the vehicle / user monitoring pages with Ruby on Rails.</li>
+									<li>Utilized Google Map APIs to accomplish the route simulation for vehicles.</li>
+									<li>Used BDD+TDD to develop user stories defined in Pivotal Tracker and deployed to Heroku.</li>
+								</ul>
 							</div>
 						</div>	
 					</div><!-- project -->
@@ -327,6 +341,11 @@
 								<h5 class="font-yellow"><b>Chun-Jung Chien and Ming-Sui Lee</b></h5>
 								<h6 class="margin-t-10">Master Thesis @ National Taiwan University</h6>
 								<h6><i class="icon ion-bookmark">&nbsp;</i>Computer Vision | Image Processing</h6>
+								<ul class="list margin-tb-30">
+									<li>Performed vanishing points detection and image segmentation for scene analysis.</li>
+									<li>Implemented relative depth cues extraction and depth ordering estimation based on the relationship between neighboring segments in MATLAB.</li>
+									<li> Improved accuracy of adjacent segment pairs to 92%.</li>
+								</ul>
 							</div>
 						</div>	
 					</div><!-- project -->
@@ -336,7 +355,8 @@
 		
 	</section><!-- project-section -->
 
-	
+	<!-- Return to Top -->
+	<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 
 	
 	
