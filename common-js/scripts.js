@@ -150,7 +150,8 @@ function enableRadialProgress(){
 				if (value === 0) {
 					circle.setText('');
 				} else {
-					circle.setText(value);
+					// circle.setText(value);
+					circle.setText('');
 				}
 
 			}
@@ -185,7 +186,9 @@ function enableLineProgress(){
 			from: {color: '#FFEA82'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar) => {
-				bar.setText(Math.round(bar.value() * 100) + ' %');
+				// bar.setText(Math.round(bar.value() * 100) + ' %');
+				bar.setText('');
+
 			}
 		});
 		
