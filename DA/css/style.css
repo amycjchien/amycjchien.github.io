@@ -136,6 +136,10 @@ ol {
 	background-position: top center;
 }
 
+.set-bg-dark{
+	-webkit-filter: brightness(.3);
+}
+
 .spad {
 	padding-top: 105px;
 	padding-bottom: 105px;
