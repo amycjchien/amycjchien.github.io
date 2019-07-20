@@ -140,6 +140,10 @@ ol {
 	-webkit-filter: brightness(.3);
 }
 
+.set-black{
+	background-color: black ;
+}
+
 .spad {
 	padding-top: 105px;
 	padding-bottom: 105px;
@@ -642,9 +646,9 @@ ol {
 	padding: 0px 150px;
 }
 
-.hero-content {
+/*.hero-content {
 	max-width: 585px;
-}
+}*/
 
 .hero-content h2 {
 	font-size: 60px;
