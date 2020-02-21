@@ -162,9 +162,23 @@ ol {
 	color: #fff;
 }
 
+.text-white{
+	display: block;
+	width: 100%;
+}
 /*---------------------
   Commom elements
 -----------------------*/
+/* Tableau Window*/
+.tableauWin{
+	/*text-align:center;*/
+	/*margin: 0;*/
+	width: 100%;
+}
+.tableauPlaceholder{
+	display: table;
+  margin: 0 auto;
+}
 
 /* buttons */
 

@@ -80,6 +80,21 @@
 		<!-- Hero section end -->
 
 		<!-- Testimonial section -->
+		<!-- About section -->
+		<div class="section sp-about-section set-black">
+			<div class="sp-container">
+				<div class="row sp-about-content">
+					<div class="text-white">
+						<h2>Interactive Resume</h2>
+					</div>
+					<div style="width: 100%; text-align: center">
+					<div id="vizContainer_resume" style="width: 65%; text-align: center; margin:0 auto"></div>
+					</div>
+					</div>
+				
+			</div>
+		</div>
+
 		<div class="section testimonial-section set-bg" data-setbg="./img/section-bg/4.jpg" style="text-align: center;">
 
 			<iframe src="https://amycjchien.gitlab.io/tableau-notes/" style="height: 80%; width: 80%;" frameborder=0></iframe>
@@ -161,6 +176,15 @@
    						// height: "700px",
                     };
                 viz = new tableau.Viz(containerDiv, url, options);
+                var containerDiv2 = document.getElementById("vizContainer_resume"),
+                    url = "https://public.tableau.com/views/Dev_Resume_CV_15675424515250/Resume?:display_count=y&:origin=viz_share_link",
+                    options = {
+                        hideTabs: true,
+                        hideToolbar: true,
+         //                width: "100%",
+   						// height: "700px",
+                    };
+                viz = new tableau.Viz(containerDiv2, url, options);
             }
     </script>
 	</body>
