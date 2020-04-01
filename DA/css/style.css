@@ -162,7 +162,25 @@ ol {
 	color: #fff;
 }
 
+.text-black h1,
+.text-black h2,
+.text-black h3,
+.text-black h4,
+.text-black h5,
+.text-black h6,
+.text-black p,
+.text-black span,
+.text-black li,
+.text-black a {
+	color: #000;
+}
+
 .text-white{
+	display: block;
+	width: 100%;
+}
+
+.text-black{
 	display: block;
 	width: 100%;
 }
